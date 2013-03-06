@@ -92,7 +92,7 @@ msgstr ""
 
 #: templates/info.html:13
 msgid "PRE_PARTY_TEXT_2"
-msgstr ""
+msgstr "..."
 
 #: templates/info.html:15
 msgid "SCHEDULE_HEADER"
@@ -128,7 +128,7 @@ msgstr "Gifts"
 
 #: templates/info.html:29
 msgid "GIFT_TEXT"
-msgstr "Toasters plz"
+msgstr "..."
 
 #: templates/info.html:32
 msgid "TRAVEL_INFO_HEADER"
