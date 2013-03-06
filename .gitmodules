@@ -1,0 +1,6 @@
+[submodule "bootstrap/twitter-bootstrap"]
+	path = bootstrap/twitter-bootstrap
+	url = git://github.com/twitter/bootstrap.git
+[submodule "bootstrap/less.js"]
+	path = bootstrap/less.js
+	url = git://github.com/cloudhead/less.js.git
