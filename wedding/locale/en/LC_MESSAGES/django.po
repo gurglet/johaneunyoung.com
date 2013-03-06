@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-18 19:59+0100\n"
+"POT-Creation-Date: 2013-03-06 19:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,35 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: templates/base.html:6 templates/base.html.py:25
+#: templates/base.html:6 templates/base.html.py:34
 msgid "Eunyoung and Johan"
 msgstr "Eunyoung &amp; Johan"
 
-#: templates/base.html:28
+#: templates/base.html:37
 msgid "Home"
 msgstr "Home"
 
-#: templates/base.html:29 templates/rsvp.html:2
+#: templates/base.html:38 templates/rsvp.html:2
 msgid "RSVP"
 msgstr "RSVP"
 
-#: templates/base.html:30 templates/info.html:2
+#: templates/base.html:39 templates/info.html:2
 msgid "Info"
 msgstr "Info"
 
-#: templates/base.html:31 templates/contact.html:2
+#: templates/base.html:40 templates/contact.html:2
 msgid "Contact"
 msgstr "Contact"
 
-#: templates/base.html:32 templates/maps.html:2
+#: templates/base.html:41 templates/maps.html:2
 msgid "Maps"
 msgstr "Maps"
 
-#: templates/base.html:33 templates/gallery.html:2
-msgid "Gallery"
-msgstr "Gallery"
-
-#: templates/base.html:37
+#: templates/base.html:49
 msgid "Language"
 msgstr "Language"
 
@@ -57,18 +52,22 @@ msgstr "Toastmaster"
 msgid "COUPLE_CONTACT_HEADER"
 msgstr "The Wedding Couple"
 
-#: templates/home.html:4
+#: templates/gallery.html:2
+msgid "Gallery"
+msgstr "Gallery"
+
+#: templates/home.html:6
 msgid "WELCOME_MESSAGE"
 msgstr "Welcome to our wedding homepage!"
 
-#: templates/home.html:7
+#: templates/home.html:9
 msgid "WELCOME_LEAD"
 msgstr ""
 "Here you will find information about the schedule during the wedding day, "
 "travel and lodging, and other important stuff. This is also the best place "
 "for your RSVP!"
 
-#: templates/home.html:10
+#: templates/home.html:12
 msgid "WELCOME_END"
 msgstr "We are really looking forward to seeing you all on our Big Day!"
 
@@ -85,37 +84,59 @@ msgid "PRE_PARTY_HEADER"
 msgstr "Pre-Party"
 
 #: templates/info.html:10
-msgid "PRE_PARTY_TEXT"
-msgstr "The father of the groom will host a pre-party at his house the day before the wedding where you have chance to mingle and get to know the other wedding guests. There will be plenty of snacks and drinks!"
+msgid "PRE_PARTY_TEXT_1"
+msgstr ""
+"The father of the groom will host a pre-party at his house the day before "
+"the wedding where you have chance to mingle and get to know the other "
+"wedding guests. There will be plenty of snacks and drinks!"
 
-#: templates/info.html:12
+#: templates/info.html:13
+msgid "PRE_PARTY_TEXT_2"
+msgstr ""
+
+#: templates/info.html:15
 msgid "SCHEDULE_HEADER"
 msgstr "Schedule for the day - could change!"
 
-#: templates/info.html:14
+#: templates/info.html:17
 msgid "SCHEDULE_TEXT"
 msgstr ""
-"Wedding Ceremony on Kyrkholmen 2 p.m <br>"
-"Reception at Stiftsgården 3 p.m. (within walking distance from Kyrkholmen)"
+"Wedding Ceremony on Kyrkholmen 2 p.m <br>Reception at Stiftsgården 3 p.m. "
+"(within walking distance from Kyrkholmen)"
 
-#: templates/info.html:16
+#: templates/info.html:19
 msgid "HOUSING_HEADER"
 msgstr "Lodging"
 
-#: templates/info.html:18
+#: templates/info.html:20
 msgid "HOUSING_TEXT"
 msgstr "..."
 
-#: templates/info.html:20
+#: templates/info.html:22
 msgid "IMPORTANT_DATE_HEADER"
 msgstr "Important Dates"
 
-#: templates/info.html:22
+#: templates/info.html:24
 msgid "IMPORTANT_DATE_TEXT"
 msgstr ""
-"13th May: Last date for RSVP<br>"
-"12th July: Pre-party<br>"
-"13th July: Our wedding!"
+"13th May: Last date for RSVP<br>12th July: Pre-party<br>13th July: Our "
+"wedding!"
+
+#: templates/info.html:27
+msgid "GIFT_HEADER"
+msgstr "Gifts"
+
+#: templates/info.html:29
+msgid "GIFT_TEXT"
+msgstr "Toasters plz"
+
+#: templates/info.html:32
+msgid "TRAVEL_INFO_HEADER"
+msgstr "Travel information"
+
+#: templates/info.html:34
+msgid "TRAVEL_INFO_TEXT"
+msgstr "..."
 
 #: templates/maps.html:4
 msgid "Wedding"
