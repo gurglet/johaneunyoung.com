@@ -6,6 +6,10 @@
 	<title>{% trans "Eunyoung and Johan" %}</title>
 	<link href="https://dl.dropbox.com/u/1910878/bootstrap.css" rel="stylesheet">
 	<style>
+	@import url(//fonts.googleapis.com/css?family=Crete+Round);
+	{% include "bootstrap.css" %}
+	</style>
+	<style>
 	@media (min-width: 980px) {
 		body {
 			padding-top: 100px;
@@ -79,11 +83,14 @@
 $(function() {
 	var setLang = function(lang) {
 		var expires = new Date();
-			expires.setYear(expires.getYear() + 1);
 
-		document.cookie = 'lang=' + encodeURIComponent(lang) +
-		'; expires=' + expires.toUTCString() +
-		'; path=/';
+		expires.setFullYear(expires.getFullYear() + 1);
+
+		var cookiestring = 'lang=' + encodeURIComponent(lang) +
+			'; expires=' + expires.toUTCString() +
+			'; path=/';
+
+		document.cookie = cookiestring;
 	};
 
 	$('#lang-switcher a').on('click', function() {
@@ -99,7 +106,7 @@ $(function() {
 		e.preventDefault();
 		var target = this.hash;
 		$('html, body').stop().animate({
-			scrollTop: $(this.hash).offset().top - 80
+			scrollTop: $(target).offset().top - 80
 		}, 300, function() {
 			window.location.hash = target;
 		});
