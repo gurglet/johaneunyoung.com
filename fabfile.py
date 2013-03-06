@@ -1,18 +1,15 @@
 """
 Fabric file for deployment of new code to production server. Example usage:
 
-	fab prod deploy
+	fab deploy
 """
 
 from fabric.api import env, run, sudo
 from fabric.context_managers import cd
 
 env.DEPLOY_DIR = 'johaneunyoung.com'
-
-
-def prod():
-	env.use_ssh_config = True
-	env.hosts = ['johaneunyoung.com']
+env.use_ssh_config = True
+env.hosts = ['johaneunyoung.com']
 
 
 def deploy():

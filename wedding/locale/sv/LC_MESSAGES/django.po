@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-06 19:50+0100\n"
+"POT-Creation-Date: 2013-03-06 21:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: templates/base.html:6 templates/base.html.py:34
+#: templates/base.html:6 templates/base.html.py:38
 msgid "Eunyoung and Johan"
 msgstr "Eunyoung &amp; Johan"
 
-#: templates/base.html:37
+#: templates/base.html:41
 msgid "Home"
 msgstr "Hem"
 
-#: templates/base.html:38 templates/rsvp.html:2
+#: templates/base.html:42 templates/rsvp.html:2
 msgid "RSVP"
 msgstr "Svara"
 
-#: templates/base.html:39 templates/info.html:2
+#: templates/base.html:43 templates/info.html:2
 msgid "Info"
 msgstr "Info"
 
-#: templates/base.html:40 templates/contact.html:2
+#: templates/base.html:44 templates/contact.html:2
 msgid "Contact"
 msgstr "Kontakt"
 
-#: templates/base.html:41 templates/maps.html:2
+#: templates/base.html:45 templates/maps.html:2
 msgid "Maps"
 msgstr "Kartor"
 
-#: templates/base.html:49
+#: templates/base.html:53
 msgid "Language"
 msgstr "Språk"
 
@@ -56,17 +56,17 @@ msgstr "Bröllopsparet"
 msgid "Gallery"
 msgstr "Galleri"
 
-#: templates/home.html:6
+#: templates/home.html:4
 msgid "WELCOME_MESSAGE"
 msgstr "Varmt välkomna till vår bröllopssida!"
 
-#: templates/home.html:9
+#: templates/home.html:7
 msgid "WELCOME_LEAD"
 msgstr ""
 "Här hittar ni informationen om programmet på bröllopsdagen, boende och annat "
 "viktigt. Ni kan också anmäla er till bröllopet här!"
 
-#: templates/home.html:12
+#: templates/home.html:10
 msgid "WELCOME_END"
 msgstr "Vi ser fram emot att se er alla på vår stora dag! "
 
@@ -135,7 +135,7 @@ msgstr "Bröllopsgåvor"
 
 #: templates/info.html:29
 msgid "GIFT_TEXT"
-msgstr "..."
+msgstr "Önskar ni ge något så..."
 
 #: templates/info.html:32
 msgid "TRAVEL_INFO_HEADER"
