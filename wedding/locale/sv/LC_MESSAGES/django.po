@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-18 19:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/base.html:6 templates/base.html.py:25
+msgid "Eunyoung and Johan"
+msgstr "Eunyoung &amp; Johan"
+
+#: templates/base.html:28
+msgid "Home"
+msgstr "Hem"
+
+#: templates/base.html:29 templates/rsvp.html:2
+msgid "RSVP"
+msgstr "Svara"
+
+#: templates/base.html:30 templates/info.html:2
+msgid "Info"
+msgstr "Info"
+
+#: templates/base.html:31 templates/contact.html:2
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/base.html:32 templates/maps.html:2
+msgid "Maps"
+msgstr "Kartor"
+
+#: templates/base.html:33 templates/gallery.html:2
+msgid "Gallery"
+msgstr "Galleri"
+
+#: templates/base.html:37
+msgid "Language"
+msgstr "Språk"
+
+#: templates/contact.html:4
+msgid "TOASTMASTER_HEADER"
+msgstr "Toastmaster"
+
+#: templates/contact.html:7
+msgid "COUPLE_CONTACT_HEADER"
+msgstr "Bröllopsparet"
+
+#: templates/home.html:4
+msgid "WELCOME_MESSAGE"
+msgstr "Varmt välkomna till vår hemsida!"
+
+#: templates/home.html:7
+msgid "WELCOME_LEAD"
+msgstr ""
+"Här hittar ni informationen om programmet på bröllopsdagen, boende och annat "
+"viktigt. Ni kan också anmäla er till bröllopet här!"
+
+#: templates/home.html:10
+msgid "WELCOME_END"
+msgstr "Vi ser fram emot att se er alla på vår stora dag! "
+
+#: templates/info.html:4
+msgid "DRESS_CODE_HEADER"
+msgstr "Klädkod"
+
+#: templates/info.html:6
+msgid "DRESS_CODE_TEXT"
+msgstr "Kavaj"
+
+#: templates/info.html:8
+msgid "PRE_PARTY_HEADER"
+msgstr "Mingelparty"
+
+#: templates/info.html:10
+msgid "PRE_PARTY_TEXT"
+msgstr "Dagen före bröllopet så kommer det att hållas ett mingelparty hos brudgummens fars hus. Med andra ord en chans att lära känna de andra bröllopsgästerna innan själva bröllopet! Det kommer att bjudas på snacks och mingeldricka!"
+
+#: templates/info.html:12
+msgid "SCHEDULE_HEADER"
+msgstr "Schema för dagen - kan komma att förändras!"
+
+#: templates/info.html:14
+msgid "SCHEDULE_TEXT"
+msgstr ""
+"Vigsel på Kyrkholmen 14.00 <br>"
+"Därefter kort promenad till Stiftsgården där brudskål och middag kommer att hållas med start kl 15.00"
+
+#: templates/info.html:16
+msgid "HOUSING_HEADER"
+msgstr "Boende"
+
+#: templates/info.html:18
+msgid "HOUSING_TEXT"
+msgstr ""
+"<p><a href='http://www.stiftsgarden.se/se/'>Stiftsgården</a>, i anslutning till festlokalen och är också där brudparet kommer att bo. Finns både hotellrum och vandrarhem.</p>"
+"<p><a href='http://www.rumforresande.se'>Rum före resande</a>, vandrarhem inom 5 min promenad från Stiftsgården.</p>"
+"<p><a href='http://medleforskonferenser.se/index.php/boende'>Medlefors konferensanläggning</a>, 10 min promenad till Stiftsgården.</p>"
+"<p><a href='http://www.scandichotels.se/Hotels/Countries/Sverige/Skelleftea/Hotels/Scandic-Skelleftea/'>Scandic hotell</a>, beläget i centrum, 3-4 kilometer från Stiftsgården</p>"
+
+#: templates/info.html:20
+msgid "IMPORTANT_DATE_HEADER"
+msgstr "Viktiga datum"
+
+#: templates/info.html:22
+msgid "IMPORTANT_DATE_TEXT"
+msgstr ""
+"13 maj: Sista svarsdag<br>"
+"12 juli: Mingelparty<br>"
+"13 juli: Bröllopet!"
+
+#: templates/maps.html:4
+msgid "Wedding"
+msgstr "Bröllop"
+
+#: templates/maps.html:7
+msgid "WEDDING_LOCATION"
+msgstr "Logen på Kyrkholmen, Skellefteå"
+
+#: templates/maps.html:12
+msgid "Reception"
+msgstr "Mottagning"
+
+#: templates/maps.html:15
+msgid "RECEPTION_LOCATION"
+msgstr "Stiftsgården Skellefteå"

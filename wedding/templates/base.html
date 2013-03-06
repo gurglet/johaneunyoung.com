@@ -1,0 +1,109 @@
+{% load i18n %}<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% trans "Eunyoung and Johan" %}</title>
+	<link href="https://dl.dropbox.com/u/1910878/bootstrap.css" rel="stylesheet">
+	<style>
+	@media (min-width: 980px) {
+		body {
+			padding-top: 100px;
+		}
+	}
+	h1 {
+		font-size: 54px;
+		line-height: 1.2;
+		margin-top: 70px;
+	}
+	iframe {
+		max-width: 100%;
+		min-width: 100%;
+	}
+	</style>
+</head>
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="80">
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a href="#home" class="brand">{% trans "Eunyoung and Johan" %}</a>
+				<div class="nav-collapse collapse" id="main-menu">
+					<ul class="nav" id="main-menu-left">
+						<li><a href="#home">{% trans "Home" %}</a></li>
+						<li><a href="#rsvp">{% trans "RSVP" %}</a></li>
+						<li><a href="#info">{% trans "Info" %}</a></li>
+						<li><a href="#contact">{% trans "Contact" %}</a></li>
+						<li><a href="#maps">{% trans "Maps" %}</a></li>
+						{% comment %}
+						<li><a href="#gallery">{% trans "Gallery" %}</a></li>
+						{% endcomment %}
+					</ul>
+					<ul class="nav pull-right" id="lang-switcher">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">{% trans "Language" %} <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#" data-lang="en">English</a></li>
+								<li><a href="#" data-lang="sv">Svenska</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="span8 offset2">
+				{% include "home.html" %}
+				{% include "rsvp.html" %}
+				{% include "info.html" %}
+				{% include "contact.html" %}
+				{% include "maps.html" %}
+				{% comment %}
+				{% include "gallery.html" %}
+				{% endcomment %}
+			</div>
+		</div>
+	</div>
+
+<script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
+<script>
+$(function() {
+	var setLang = function(lang) {
+		var expires = new Date();
+			expires.setYear(expires.getYear() + 1);
+
+		document.cookie = 'lang=' + encodeURIComponent(lang) +
+		'; expires=' + expires.toUTCString() +
+		'; path=/';
+	};
+
+	$('#lang-switcher a').on('click', function() {
+		if ($(this).data('lang')) {
+			setLang($(this).data('lang'));
+			window.location.reload();
+			return false;
+		}
+	});
+
+	// Smooth scrolling
+	$('.brand, #main-menu a').bind('click', function(e) {
+		e.preventDefault();
+		var target = this.hash;
+		$('html, body').stop().animate({
+			scrollTop: $(this.hash).offset().top - 80
+		}, 300, function() {
+			window.location.hash = target;
+		});
+	});
+});
+</script>
+</body>
+</html>
