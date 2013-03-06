@@ -14,6 +14,7 @@ env.hosts = ['johaneunyoung.com']
 
 def deploy():
 	with cd(env.DEPLOY_DIR):
+		run('git checkout -- .')
 		run('git pull')
 		run('make languages')
 		sudo('service uwsgi restart')
