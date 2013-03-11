@@ -1,5 +1,5 @@
 BUILD_DIR = build/
-DESTDIR = ~/Dropbox/Public/
+DESTDIR = ../wedding/templates/
 LESS_COMPRESSOR = node less.js/bin/lessc
 LESS_FLAGS = -sm -su
 SRC_FILES = twitter-bootstrap/less/*.less *.less
