@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-06 21:43+0100\n"
+"POT-Creation-Date: 2013-06-02 16:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: templates/base.html:6 templates/base.html.py:38
+#: templates/base.html:6 templates/base.html.py:45
 msgid "Eunyoung and Johan"
 msgstr "Eunyoung &amp; Johan"
 
-#: templates/base.html:41
+#: templates/base.html:48
 msgid "Home"
 msgstr "Hem"
 
-#: templates/base.html:42 templates/rsvp.html:2
-msgid "RSVP"
-msgstr "Svara"
-
-#: templates/base.html:43 templates/info.html:2
+#: templates/base.html:53 templates/info.html:2
 msgid "Info"
 msgstr "Info"
 
-#: templates/base.html:44 templates/contact.html:2
+#: templates/base.html:54 templates/contact.html:2
 msgid "Contact"
 msgstr "Kontakt"
 
-#: templates/base.html:45 templates/maps.html:2
+#: templates/base.html:55 templates/maps.html:2
 msgid "Maps"
 msgstr "Kartor"
 
-#: templates/base.html:53
+#: templates/base.html:63
 msgid "Language"
 msgstr "Språk"
 
@@ -48,9 +44,24 @@ msgstr "Språk"
 msgid "TOASTMASTER_HEADER"
 msgstr "Toastmaster"
 
-#: templates/contact.html:7
+#: templates/contact.html:6
+msgid "TOASTMASTER_TEXT"
+msgstr ""
+"Våra toastmasters för kvällen är Jacob Axelsson och Emma Lee Bergström. "
+"Önskar ni hålla tal under middagen så bör ni till dem på <a href='mailto:"
+"jacobaxelsson@gmail.com'>jacobaxelsson@gmail.com</a> senast en vecka innan "
+"bröllopet."
+
+#: templates/contact.html:9
 msgid "COUPLE_CONTACT_HEADER"
 msgstr "Bröllopsparet"
+
+#: templates/contact.html:10
+msgid "COUPLE_CONTACT_TEXT"
+msgstr ""
+"Har ni några frågor eller funderingar om bröllopet som inte besvaras här så "
+"går det givetvis jättebra att höra av sig. Vi har en gemensam e-mailadress "
+"på <a href='mailto:eunyoungjohan@gmail.com'>eunyoungjohan@gmail.com</a>"
 
 #: templates/gallery.html:2
 msgid "Gallery"
@@ -64,11 +75,16 @@ msgstr "Varmt välkomna till vår bröllopssida!"
 msgid "WELCOME_LEAD"
 msgstr ""
 "Här hittar ni informationen om programmet på bröllopsdagen, boende och annat "
-"viktigt. Ni kan också anmäla er till bröllopet här!"
+"viktigt. Efter bröllopet så kommer vi också att lägga upp ett bildgalleri "
+"här!"
 
 #: templates/home.html:10
 msgid "WELCOME_END"
-msgstr "Vi ser fram emot att se er alla på vår stora dag! "
+msgstr ""
+"Vi ser fram emot att se er alla på vår stora dag! <p>Vänligen notera: På "
+"inbjudan så har vi av misstag skrivit fel e-mailaddress. Så har ni frågor om "
+"bröllopet och vill maila oss så finns den rätta adressen på denna sida "
+"(Kontakt/Bröllopsparet).</p>"
 
 #: templates/info.html:4
 msgid "DRESS_CODE_HEADER"
@@ -76,7 +92,9 @@ msgstr "Klädkod"
 
 #: templates/info.html:6
 msgid "DRESS_CODE_TEXT"
-msgstr "Kavaj"
+msgstr ""
+"Kavaj. Med det menas ljus eller mörk kostym för herrarna och klänning, kjol "
+"eller dress för damerna."
 
 #: templates/info.html:8
 msgid "PRE_PARTY_HEADER"
@@ -92,17 +110,22 @@ msgstr ""
 
 #: templates/info.html:13
 msgid "PRE_PARTY_TEXT_2"
-msgstr "..."
+msgstr ""
+"Mingelpartyt är på <a href='https://maps.google.se/maps?q=Edensgatan+16,"
+"+Skellefte"
+"%C3%A5&hl=en&ie=UTF8&sll=58.403789,15.610774&sspn=0.111164,0.288734&hnear=Edensgatan"
+"+16,+931+44+Skellefte%C3%A5&t=m&z=15'>Edénsgatan 16</a> och tidpunkten är "
+"17.00-22.00 den 12/7."
 
 #: templates/info.html:15
 msgid "SCHEDULE_HEADER"
-msgstr "Schema för dagen - kan komma att förändras!"
+msgstr "Schema för bröllopsdagen"
 
 #: templates/info.html:17
 msgid "SCHEDULE_TEXT"
 msgstr ""
 "Vigsel på Kyrkholmen 14.00 <br>Därefter kort promenad till Stiftsgården där "
-"brudskål och middag kommer att hållas med start kl 15.00"
+"brudskål och middag kommer att hållas med start kl 15.30"
 
 #: templates/info.html:19
 msgid "HOUSING_HEADER"
@@ -135,7 +158,14 @@ msgstr "Bröllopsgåvor"
 
 #: templates/info.html:29
 msgid "GIFT_TEXT"
-msgstr "Önskar ni ge något så..."
+msgstr ""
+"Då vi redan bott tillsammans i flera i år så har vi redan de hushållssaker "
+"som vi behöver (och får plats med). Vill ni ge oss något så önskar vi helst "
+"ett bidrag till bröllopsresan eller andra upplevelsepresenter (dvs events, "
+"mat, resor eller dylikt).  Det går att bidra till bröllopsresan genom att "
+"göra en insättning på kontot 9550-1456674 (Avanza). Destinationen för "
+"bröllopsresan är Italien där vi kommer att koppla av i Verona, Valpociella "
+"och Lake Garda "
 
 #: templates/info.html:32
 msgid "TRAVEL_INFO_HEADER"
@@ -143,11 +173,15 @@ msgstr "Reseinformation"
 
 #: templates/info.html:34
 msgid "TRAVEL_INFO_TEXT"
-msgstr "..."
+msgstr ""
+"Om ni flyger till Skellefteå och bor på Stiftsgården (eller i närheten) så "
+"går det att att åka flygbuss direkt till hotellet. Detaljerad information om "
+"tider och hållplatser finns på Skellefteå flygplats <a href='http://"
+"skellefteaairport.se/till-och-fran/'>hemsida</a>"
 
 #: templates/maps.html:4
 msgid "Wedding"
-msgstr "Bröllop"
+msgstr "Vigsel"
 
 #: templates/maps.html:7
 msgid "WEDDING_LOCATION"
@@ -160,3 +194,7 @@ msgstr "Mottagning"
 #: templates/maps.html:15
 msgid "RECEPTION_LOCATION"
 msgstr "Stiftsgården Skellefteå"
+
+#: templates/rsvp.html:2
+msgid "RSVP"
+msgstr "Svara"
