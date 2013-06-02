@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-02 16:24+0200\n"
+"POT-Creation-Date: 2013-06-02 16:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,27 +16,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: templates/base.html:6 templates/base.html.py:45
+#: templates/base.html:6 templates/base.html.py:68
 msgid "Eunyoung and Johan"
 msgstr "Eunyoung &amp; Johan"
 
-#: templates/base.html:48
+#: templates/base.html:71
 msgid "Home"
 msgstr "Home"
 
-#: templates/base.html:53 templates/info.html:2
+#: templates/base.html:76 templates/info.html:2
 msgid "Info"
 msgstr "Info"
 
-#: templates/base.html:54 templates/contact.html:2
+#: templates/base.html:77 templates/contact.html:2
 msgid "Contact"
 msgstr "Contact"
 
-#: templates/base.html:55 templates/maps.html:2
+#: templates/base.html:78 templates/maps.html:2
 msgid "Maps"
 msgstr "Maps"
 
-#: templates/base.html:63
+#: templates/base.html:86
 msgid "Language"
 msgstr "Language"
 
@@ -62,18 +62,18 @@ msgstr "The Wedding Couple"
 msgid "Gallery"
 msgstr "Gallery"
 
-#: templates/home.html:4
+#: templates/home.html:6
 msgid "WELCOME_MESSAGE"
 msgstr "Welcome to our wedding homepage!"
 
-#: templates/home.html:7
+#: templates/home.html:9
 msgid "WELCOME_LEAD"
 msgstr ""
 "Here you will find information about the schedule during the wedding day, "
 "travel and lodging, and other important stuff. This is also the best place "
 "for your RSVP!"
 
-#: templates/home.html:10
+#: templates/home.html:12
 msgid "WELCOME_END"
 msgstr "We are really looking forward to seeing you all on our Big Day!"
 
