@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-02 20:51+0200\n"
+"POT-Creation-Date: 2013-06-25 21:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr ""
 "Våra toastmasters för kvällen är Jacob Axelsson och Emma Lee Bergström. "
 "Önskar ni hålla tal under middagen så bör ni höra av er till dem på <a "
 "href='mailto:jacobaxelsson@gmail.com'>jacobaxelsson@gmail.com</a> senast en "
-"vecka innan bröllopet."
+"vecka innan bröllopet. Försök att hålla talen till högst ca 5 min."
 
 #: templates/contact.html:9
 msgid "COUPLE_CONTACT_HEADER"
@@ -61,7 +61,9 @@ msgid "COUPLE_CONTACT_TEXT"
 msgstr ""
 "Har ni några frågor eller funderingar om bröllopet som inte besvaras här så "
 "går det givetvis jättebra att höra av sig. Vi har en gemensam e-mailadress "
-"på <a href='mailto:eunyoungjohan@gmail.com'>eunyoungjohan@gmail.com</a>"
+"på <a href='mailto:eunyoungjohan@gmail.com'>eunyoungjohan@gmail.com</a>.   "
+"Om ni behöver nå oss snabbt så ring antingen på +46702695111 (Johan) eller  "
+"+46735601088 (Eunyoung) "
 
 #: templates/gallery.html:2
 msgid "Gallery"
@@ -103,10 +105,11 @@ msgstr "Mingelparty"
 #: templates/info.html:10
 msgid "PRE_PARTY_TEXT_1"
 msgstr ""
-"Dagen före bröllopet så kommer det att hållas ett mingelparty hos "
-"brudgummens fars hus. Med andra ord en chans att lära känna de andra "
-"bröllopsgästerna innan själva bröllopet! Det kommer att bjudas på snacks och "
-"mingeldricka!"
+"Dagen före bröllopet så är ni välkomna till ett mingelparty som kommer att "
+"hållas vid brudgummens fars hus som ligger ca 5 min promenad från "
+"Stiftsgården. Med andra ord en utmärkt chans att lära känna de andra "
+"bröllopsgästerna innan själva bröllopet! Det kommer att bjudas lättare  mål "
+"och dryck! "
 
 #: templates/info.html:13
 msgid "PRE_PARTY_TEXT_2"
@@ -138,8 +141,6 @@ msgstr ""
 "till festlokalen och är också där brudparet kommer att bo. Finns både "
 "hotellrum och vandrarhem.</p><p><a href='http://www.rumforresande.se'>Rum "
 "före resande</a>, vandrarhem inom 5 min promenad från Stiftsgården.</p><p><a "
-"href='http://medleforskonferenser.se/index.php/boende'>Medlefors "
-"konferensanläggning</a>, 10 min promenad till Stiftsgården.</p><p><a "
 "href='http://www.scandichotels.se/Hotels/Countries/Sverige/Skelleftea/Hotels/"
 "Scandic-Skelleftea/'>Scandic hotell</a>, beläget i centrum, 3-4 kilometer "
 "från Stiftsgården</p>"
@@ -174,24 +175,36 @@ msgstr "Reseinformation"
 #: templates/info.html:34
 msgid "TRAVEL_INFO_TEXT"
 msgstr ""
-"Om ni flyger till Skellefteå och bor på Stiftsgården (eller i närheten) så "
-"går det att att åka flygbuss direkt till hotellet. Detaljerad information om "
-"tider och hållplatser finns på Skellefteå flygplats <a href='http://"
-"skellefteaairport.se/till-och-fran/'>hemsida</a>"
+"Om ni flyger till Skellefteå och så går det flygbuss till de flesta hotell "
+"(till ex Stiftsgården) och centrum, så man behöver inte ta taxi från "
+"flygplatsen. Detaljerad information om tider och hållplatser finns på <a "
+"href='http://skellefteaairport.se/till-och-fran/'>Skellefteå flygplats "
+"hemsida</a><br><br> Om ni tänkt att turista något i området dagarna innan "
+"eller efter bröllopet så kanske ni kan få lite tips från den <a href='http://"
+"www.destinationskelleftea.se/sv/Destination'>här</a> sidan. Lokaltrafiken "
+"går inte överallt  men det finns även biluthyrning i centrala Skellefteå."
 
 #: templates/maps.html:4
+msgid "Pre-party"
+msgstr "Mingelfest"
+
+#: templates/maps.html:7
+msgid "PREPARTY_LOCATION"
+msgstr "Edénsgatan 16, Skellefteå"
+
+#: templates/maps.html:12
 msgid "Wedding"
 msgstr "Vigsel"
 
-#: templates/maps.html:7
+#: templates/maps.html:15
 msgid "WEDDING_LOCATION"
 msgstr "Logen på Kyrkholmen, Skellefteå"
 
-#: templates/maps.html:12
+#: templates/maps.html:20
 msgid "Reception"
 msgstr "Mottagning"
 
-#: templates/maps.html:15
+#: templates/maps.html:23
 msgid "RECEPTION_LOCATION"
 msgstr "Stiftsgården Skellefteå"
 

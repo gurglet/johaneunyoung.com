@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-02 20:51+0200\n"
+"POT-Creation-Date: 2013-06-25 21:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,18 +145,27 @@ msgid "TRAVEL_INFO_TEXT"
 msgstr "..."
 
 #: templates/maps.html:4
+msgid "Pre-party"
+msgstr ""
+
+#: templates/maps.html:7
+#, fuzzy
+msgid "PREPARTY_LOCATION"
+msgstr "The reception is in Stiftsgården, Skellefteå, Sweden"
+
+#: templates/maps.html:12
 msgid "Wedding"
 msgstr "Wedding location"
 
-#: templates/maps.html:7
+#: templates/maps.html:15
 msgid "WEDDING_LOCATION"
 msgstr "Our wedding will take place on the lovely Kyrkholmen in Skellefteå"
 
-#: templates/maps.html:12
+#: templates/maps.html:20
 msgid "Reception"
 msgstr "Wedding reception"
 
-#: templates/maps.html:15
+#: templates/maps.html:23
 msgid "RECEPTION_LOCATION"
 msgstr "The reception is in Stiftsgården, Skellefteå, Sweden"
 
