@@ -108,7 +108,7 @@ msgstr ""
 "Dagen före bröllopet så är ni välkomna till ett mingelparty som kommer att "
 "hållas vid brudgummens fars hus som ligger ca 5 min promenad från "
 "Stiftsgården. Med andra ord en utmärkt chans att lära känna de andra "
-"bröllopsgästerna innan själva bröllopet! Det kommer att bjudas lättare  mål "
+"bröllopsgästerna innan själva bröllopet! Det kommer att bjudas på lättare  mål "
 "och dryck! "
 
 #: templates/info.html:13
