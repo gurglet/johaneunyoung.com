@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-25 21:35+0200\n"
+"POT-Creation-Date: 2013-06-25 23:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,18 +45,27 @@ msgid "TOASTMASTER_HEADER"
 msgstr "Toastmaster"
 
 #: templates/contact.html:6
-#, fuzzy
 msgid "TOASTMASTER_TEXT"
-msgstr "Toastmaster"
+msgstr ""
+"Our toastmasters for the evening are Jacob Axelsson and Emma Lee Bergstrom. "
+"If you wish to hold a speech during the dinner then you should contact them "
+"at <a href='mailto:jacobaxelsson@gmail.com'>jacobaxelsson@gmail.com</a> at "
+"least one week before the wedding. Try to keep the duration of the speech to "
+"less than 5 min."
 
 #: templates/contact.html:9
 msgid "COUPLE_CONTACT_HEADER"
 msgstr "The Wedding Couple"
 
+#
 #: templates/contact.html:10
-#, fuzzy
 msgid "COUPLE_CONTACT_TEXT"
-msgstr "The Wedding Couple"
+msgstr ""
+"Do you have any questions or concerns about the wedding that are not "
+"answered here, then you can of course contact us. We have an e-mail address "
+"at <a href='mailto:eunyoungjohan@gmail.com'>eunyoungjohan@gmail.com</a>. If "
+"you need to reach us quickly you can either call +46702695111 (Johan) or "
+"+46735601088 (Eunyoung)"
 
 #: templates/gallery.html:2
 msgid "Gallery"
@@ -70,8 +79,8 @@ msgstr "Welcome to our wedding homepage!"
 msgid "WELCOME_LEAD"
 msgstr ""
 "Here you will find information about the schedule during the wedding day, "
-"travel and lodging, and other important stuff. This is also the best place "
-"for your RSVP!"
+"travel and lodging, and other important stuff. After the wedding, we will "
+"also  put up a photo gallery here!"
 
 #: templates/home.html:12
 msgid "WELCOME_END"
@@ -83,7 +92,9 @@ msgstr "Dress Code"
 
 #: templates/info.html:6
 msgid "DRESS_CODE_TEXT"
-msgstr "Business Casual / Informal suit"
+msgstr ""
+"Business Casual / Informal suit. It means light or dark suit for the "
+"gentlemen and dress or skirt for the ladies."
 
 #: templates/info.html:8
 msgid "PRE_PARTY_HEADER"
@@ -92,23 +103,29 @@ msgstr "Pre-Party"
 #: templates/info.html:10
 msgid "PRE_PARTY_TEXT_1"
 msgstr ""
-"The father of the groom will host a pre-party at his house the day before "
-"the wedding where you have chance to mingle and get to know the other "
-"wedding guests. There will be plenty of snacks and drinks!"
+"The day before the wedding, you are welcome to a pre-party that will be held "
+"at the groom's father's house which is about 5 min walk from Stiftsgården. "
+"In other words, an excellent chance to get to know the other wedding guests "
+"before the wedding! You will be offered a lighter meal and drinks!"
 
 #: templates/info.html:13
 msgid "PRE_PARTY_TEXT_2"
-msgstr "..."
+msgstr ""
+"Location for the pre-party is <a href='https://maps.google.se/maps?"
+"q=Edensgatan+16,+Skellefte"
+"%C3%A5&hl=en&ie=UTF8&sll=58.403789,15.610774&sspn=0.111164,0.288734&hnear=Edensgatan"
+"+16,+931+44+Skellefte%C3%A5&t=m&z=15'>Edénsgatan 16</a> (name of the street) "
+"and the time is 5.00 p.m to 10.00 p.m, 12th of July."
 
 #: templates/info.html:15
 msgid "SCHEDULE_HEADER"
-msgstr "Schedule for the day - could change!"
+msgstr "Schedule for the Wedding Day"
 
 #: templates/info.html:17
 msgid "SCHEDULE_TEXT"
 msgstr ""
-"Wedding Ceremony on Kyrkholmen 2 p.m <br>Reception at Stiftsgården 3 p.m. "
-"(within walking distance from Kyrkholmen)"
+"Wedding Ceremony on Kyrkholmen 2.00 p.m <br> Afterwards a short walk to "
+"Stiftsgården where the recpetion will be held starting at 3.30 p.m. "
 
 #: templates/info.html:19
 msgid "HOUSING_HEADER"
@@ -116,7 +133,14 @@ msgstr "Lodging"
 
 #: templates/info.html:20
 msgid "HOUSING_TEXT"
-msgstr "..."
+msgstr ""
+"<p><a href='http://www.stiftsgarden.se/se/'>Stiftsgården</a>, same place as "
+"where the reception is held and also where the wedding couple will be "
+"staying. They have both hotel and hostel. </p><p><a href='http://www."
+"rumforresande.se'>Rum före resande</a>, hostel within 5 min walk from "
+"Stiftsgården.</p><p><a href='http://www.scandichotels.se/Hotels/Countries/"
+"Sverige/Skelleftea/Hotels/Scandic-Skelleftea/'>Scandic hotell</a>, located "
+"in the centre of the city, 3-4 km from Stiftsgården</p>"
 
 #: templates/info.html:22
 msgid "IMPORTANT_DATE_HEADER"
@@ -125,7 +149,7 @@ msgstr "Important Dates"
 #: templates/info.html:24
 msgid "IMPORTANT_DATE_TEXT"
 msgstr ""
-"13th May: Last date for RSVP<br>12th July: Pre-party<br>13th July: Our "
+"13th May: Last date for RSVP<br>12th July: Pre-Party<br>13th July: Our "
 "wedding!"
 
 #: templates/info.html:27
@@ -134,7 +158,13 @@ msgstr "Gifts"
 
 #: templates/info.html:29
 msgid "GIFT_TEXT"
-msgstr "..."
+msgstr ""
+"Since we already lived together for several years, we already have all the "
+"household things we need (and have room for). If you would like to give us "
+"something we would prefer a contribution to our honeymoon or other gifts "
+"that can be \"experienced\" (e.g. events, food, travel, etc.). The "
+"destination for the honeymoon is in Italy, where we will relax in Verona, "
+"Lake Garda and Valpolicella "
 
 #: templates/info.html:32
 msgid "TRAVEL_INFO_HEADER"
@@ -142,16 +172,26 @@ msgstr "Travel information"
 
 #: templates/info.html:34
 msgid "TRAVEL_INFO_TEXT"
-msgstr "..."
+msgstr ""
+"If you are flying to Skellefteå, the airport shuttle goes from the airport "
+"to most of the hotels in the city (including Stiftsgården), so no need to "
+"take a taxi. Detailed information about time schedule and bus stops can be "
+"found on <a href='http://skellefteaairport.se/en/to-and-from-the-"
+"airport/'>the homepage of Skellefteå airport</a><br><br> If you are thinking "
+"about traveling in the area before or after the wedding  you might be able "
+"to find something interesting <a href='http://www.destinationskelleftea.se/"
+"en/Destination'>here</a>. Public transportations are not available for all "
+"destinations but you will also be able to finds car rentals in central "
+"Skellefteå."
 
 #: templates/maps.html:4
 msgid "Pre-party"
-msgstr ""
+msgstr "Pre-Party"
 
 #: templates/maps.html:7
-#, fuzzy
 msgid "PREPARTY_LOCATION"
-msgstr "The reception is in Stiftsgården, Skellefteå, Sweden"
+msgstr ""
+"The Pre-Party is at Edénsgatan (name of the street) 16, Skellefteå, Sweden"
 
 #: templates/maps.html:12
 msgid "Wedding"
